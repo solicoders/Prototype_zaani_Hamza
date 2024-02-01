@@ -11,7 +11,7 @@ Le backlog est une liste ordonées des tâches
 - **chapitre** 
 - **exposé** 
 - **feature** 
-  - [1.backlog.md](./Backlog/feature/1.backlog.md) 
+  - [1.backlog.1.md](./Backlog/feature/1.backlog.1.md) 
   - [2.creation-app.4.md](./Backlog/feature/2.creation-app.4.md) 
   - [3.base-de-données.5.md](./Backlog/feature/3.base-de-données.5.md) 
   - [4.jeux-test.7.md](./Backlog/feature/4.jeux-test.7.md) 
