@@ -1,3 +1,8 @@
+---
+layout : default
+order : 1
+---
+
 - [creation app](/docs/creation-app.md) 
 - [back end](/docs/back-end.md) 
 - [jeux test](/docs/jeux-test.md) 
