@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('likes', function (Blueprint $table): void {
             $table->id();
             $table->string('nom');
-            $table->string('user');
+            $table->string('utilisateur');
             $table->TIMESTAMP('Date_de_création');
             $table->TIMESTAMP('Date_de_modification');
             $table->string('Référence');
