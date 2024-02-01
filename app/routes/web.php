@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LikeController;
+use App\Http\Controllers\PostController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('likes.index');
 });
+Route::get('/', [LikeController::class, 'index'])->name('home');
+// Route::get('/', [LikeController::class, 'index'])->nmae('houme');
+Route::resource('tasks', LikeController::class);
+Route::resource('tasks', PostController::class);
